@@ -1,0 +1,21 @@
+.dados{
+    width: 400px;
+    background-color: rgba(232, 238, 238, 0.583);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    margin: auto;
+    border-radius: 10px ;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn{
+text-align: center;
+border: 10px;
+}
