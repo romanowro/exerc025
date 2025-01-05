@@ -1,1 +1,1 @@
-Falta cadastrar 
+Alterar para exibir lista 
