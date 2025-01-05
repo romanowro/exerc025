@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Formulário</title>
+    <link rel="stylesheet" href="dados/style.css">
 </head>
 
 <body>
@@ -14,13 +15,13 @@
 
     <form action="" method="get">
 
-        <fieldset> <!--Colocar o mesmo nome para poder marcar desmarcar a caixinha-->
+        <fieldset class="dados"> <!--Colocar o mesmo nome para poder marcar desmarcar a caixinha-->
             <legend>Sexo</legend>
             <input type="radio" name="sexo" id="isxfem" value="F" checked><label for="isxfem">Feminino</label><br>
             <input type="radio" name="sexo" id="isxmasc" value="M"> <label for="isxmasc">Masculino</label>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="dados">
 
             <legend>Esportes Favoritos</legend>
 
@@ -33,7 +34,7 @@
         </fieldset>
 
 
-        <p>
+        <p class="btn">
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
