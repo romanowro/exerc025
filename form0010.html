@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="../exerc025/pastajs/idade.js"></script>
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1>Exêmplo de Formulário</h1>
+
+    <form action="" method="get">
+
+        <p>
+            <label for="iano">Em que ano você Nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2025" oninput="calcidade()">
+
+        </p>
+
+        <p>
+            <label for="iidade">Idade:</label>
+            <output id="iidade">0</output>
+        </p>
+
+        <p>
+            <label for="inum">Numero:</label>
+            <input type="range" name="num" id="inum" oninput="ival.innerHTML=Number(inum.value)">
+            <output id="ival">5</output>
+        </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
